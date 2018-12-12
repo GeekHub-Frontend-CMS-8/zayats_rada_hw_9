@@ -509,6 +509,10 @@ h2 {
   cursor: pointer;
 }
 
+.box__2:hover .hover-effect {
+  opacity: 1;
+}
+
 .box__3 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -520,6 +524,10 @@ h2 {
   background: url(../img/dribbble_shottie.jpg) center left no-repeat;
   background-size: cover;
   cursor: pointer;
+}
+
+.box__3:hover .hover-effect {
+  opacity: 1;
 }
 
 .box__4 {
@@ -535,6 +543,10 @@ h2 {
   cursor: pointer;
 }
 
+.box__4:hover .hover-effect {
+  opacity: 1;
+}
+
 .box__5 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -546,6 +558,10 @@ h2 {
   background: url(../img/ss-drib.jpg) center left no-repeat;
   background-size: cover;
   cursor: pointer;
+}
+
+.box__5:hover .hover-effect {
+  opacity: 1;
 }
 
 .box__6 {
@@ -561,6 +577,10 @@ h2 {
   cursor: pointer;
 }
 
+.box__6:hover .hover-effect {
+  opacity: 1;
+}
+
 .box__7 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -572,6 +592,10 @@ h2 {
   background: url(../img/food.jpg) center left no-repeat;
   background-size: cover;
   cursor: pointer;
+}
+
+.box__7:hover .hover-effect {
+  opacity: 1;
 }
 
 .box__8 {
@@ -587,6 +611,10 @@ h2 {
   cursor: pointer;
 }
 
+.box__8:hover .hover-effect {
+  opacity: 1;
+}
+
 .box__9 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -598,6 +626,10 @@ h2 {
   background: url(../img/4.jpg) center left no-repeat;
   background-size: cover;
   cursor: pointer;
+}
+
+.box__9:hover .hover-effect {
+  opacity: 1;
 }
 
 .box__10 {
@@ -613,6 +645,10 @@ h2 {
   cursor: pointer;
 }
 
+.box__10:hover .hover-effect {
+  opacity: 1;
+}
+
 .box__11 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -624,6 +660,10 @@ h2 {
   background: url(../img/landing-page.jpg) center left no-repeat;
   background-size: cover;
   cursor: pointer;
+}
+
+.box__11:hover .hover-effect {
+  opacity: 1;
 }
 
 .box__12 {
@@ -639,6 +679,10 @@ h2 {
   cursor: pointer;
 }
 
+.box__12:hover .hover-effect {
+  opacity: 1;
+}
+
 .box__13 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -650,6 +694,10 @@ h2 {
   background: url(../img/coil-wip.jpg) center left no-repeat;
   background-size: cover;
   cursor: pointer;
+}
+
+.box__13:hover .hover-effect {
+  opacity: 1;
 }
 
 .box__14 {
@@ -665,6 +713,10 @@ h2 {
   cursor: pointer;
 }
 
+.box__14:hover .hover-effect {
+  opacity: 1;
+}
+
 .box__15 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -676,6 +728,10 @@ h2 {
   background: url(../img/1.jpg) center left no-repeat;
   background-size: cover;
   cursor: pointer;
+}
+
+.box__15:hover .hover-effect {
+  opacity: 1;
 }
 
 .clients {
@@ -886,6 +942,14 @@ h2 {
   margin-bottom: 14px;
 }
 
+.team-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .team-list__social-links img {
   width: 24px;
   height: 24px;
@@ -971,8 +1035,6 @@ h2 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-align: center;
@@ -983,6 +1045,11 @@ h2 {
 .logo-list__item {
   -ms-flex-line-pack: center;
       align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .prices {
